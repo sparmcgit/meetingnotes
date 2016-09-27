@@ -1,0 +1,23 @@
+#!/bin/bash
+# Martin Häggström 160927
+
+DIRECTORY=$1
+
+if [ ${#DIRECTORY} -gt 30 ]
+then
+	echo "The directory name is longer than 30 characters"
+	exit 1
+fi
+
+echo $DIRECTORY | grep -qE '^\w{1,30}$'
+
+if [ $? = 0 ]; then
+	git clone https://github.com/sparmcgit/meetingnotes.git $DIRECTORY
+	cd $DIRECTORY
+	git mv meetingnotes $DIRECTORY
+else
+	git clone https://github.com/sparmcgit/meetingnotes.git
+	cd meetingnotes
+fi
+
+git rm README.md
