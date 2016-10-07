@@ -1,0 +1,11 @@
+{
+	datum:,
+	närvarande: [],
+	protokollförare:,
+	justerare:,
+
+	mötespunkt: {
+		id:,
+		ansvariga:,
+		status:
+}
