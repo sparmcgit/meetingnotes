@@ -1,11 +1,11 @@
 {
-	"datum":,
+	"datum": "",
 	"närvarande": [],
-	"protokollförare":,
-	"justerare":,
+	"protokollförare": "",
+	"justerare": "",
 	"mötespunkt": {
-		"id":,
-		"ansvariga":,
-		"status":
+		"id": "",
+		"ansvariga": "",
+		"status": ""
 	}
 }

@@ -1,11 +1,11 @@
 {
-	"date":,
+	"date": "",
 	"present": [],
-	"scorer":,
-	"adjuster":,
+	"scorer": "",
+	"adjuster": "",
 	"meetingpoint": {
-		"id":,
-		"responsible":,
-		"status":
+		"id": "",
+		"responsible": "",
+		"status": ""
 	}
 }
