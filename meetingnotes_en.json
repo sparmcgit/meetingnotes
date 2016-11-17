@@ -3,10 +3,12 @@
 	"present": [],
 	"scorer": "",
 	"adjuster": "",
-	"meetingpoint": {
-		"id": "",
-		"responsible": "",
-		"status": "",
-		"note": ""
-	}
+	"meetingpoint": [
+		{
+			"id": "",
+			"responsible": "",
+			"status": "",
+			"note": ""
+		}
+	]
 }

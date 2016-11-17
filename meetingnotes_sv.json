@@ -3,10 +3,12 @@
 	"närvarande": [],
 	"protokollförare": "",
 	"justerare": "",
-	"mötespunkt": {
-		"id": "",
-		"ansvariga": "",
-		"status": "",
-		"notering": ""
-	}
+	"mötespunkt": [
+		{
+			"id": "",
+			"ansvariga": "",
+			"status": "",
+			"notering": ""
+		}
+	]
 }
