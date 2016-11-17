@@ -9,6 +9,7 @@ then
 	exit 1
 fi
 
+# does the directory already exists?
 echo $DIRECTORY | grep -qE '^\w{1,30}$'
 
 if [ $? = 0 ]; then
