@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "integer"
+    },
+    "present": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scorer": {
+      "type": "string"
+    },
+    "adjuster": {
+      "type": "string"
+    },
+    "meetingpoint": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "responsible": {
+            "type": "string"
+          },
+          "done": {
+            "type": "boolean"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "responsible",
+          "done",
+          "note"
+        ]
+      }
+    }
+  },
+  "required": [
+    "date",
+    "present",
+    "scorer",
+    "adjuster",
+    "meetingpoint"
+  ]
+}

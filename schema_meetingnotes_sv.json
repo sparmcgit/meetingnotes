@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "datum": {
+      "type": "integer"
+    },
+    "närvarande": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "protokollförare": {
+      "type": "string"
+    },
+    "justerare": {
+      "type": "string"
+    },
+    "mötespunkt": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "ansvariga": {
+            "type": "string"
+          },
+          "klart": {
+            "type": "boolean"
+          },
+          "notering": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "ansvariga",
+          "klart",
+          "notering"
+        ]
+      }
+    }
+  },
+  "required": [
+    "datum",
+    "närvarande",
+    "protokollförare",
+    "justerare",
+    "mötespunkt"
+  ]
+}
