@@ -19,5 +19,3 @@ else
 	git clone https://github.com/sparmcgit/meetingnotes.git
 	cd meetingnotes
 fi
-
-git rm README.md
