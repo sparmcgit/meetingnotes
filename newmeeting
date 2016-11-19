@@ -15,7 +15,6 @@ echo $DIRECTORY | grep -qE '^\w{1,30}$'
 if [ $? = 0 ]; then
 	git clone https://github.com/sparmcgit/meetingnotes.git $DIRECTORY
 	cd $DIRECTORY
-	git mv meetingnotes $DIRECTORY
 else
 	git clone https://github.com/sparmcgit/meetingnotes.git
 	cd meetingnotes
